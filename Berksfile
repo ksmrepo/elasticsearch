@@ -10,8 +10,6 @@ group :integration do
   cookbook 'curl'
 end
 
-source 'https://api.berkshelf.com'
-
 cookbook 'apt', git: 'https://github.com/chef-cookbooks/apt.git'
 cookbook 'yum', git: 'https://github.com/chef-cookbooks/yum.git'
 cookbook 'chef-sugar', git: 'https://github.com/sethvargo/chef-sugar.git'
